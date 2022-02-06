@@ -57,7 +57,7 @@ func main() {
 	fmt.Printf("Norske kroner %.02f\n", rates1.Rates["NOK"])
 	fmt.Printf("Sveitiske Frank %.02f\n", rates1.Rates["CHF"])
 	fmt.Printf("US Dollar %.02f\n", rates1.Rates["USD"])
-	fmt.Printf("Engelske Pund %.02f\n", rates1.Rates["USD"])
+	fmt.Printf("Engelske Pund %.02f\n", rates1.Rates["GBP"])
 }
 
 type Unmarshaler interface {
